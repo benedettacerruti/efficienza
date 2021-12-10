@@ -407,6 +407,49 @@ colnames(turniXsede_22_27novembre2021)<-c('ore', 'sede')
 #cbind.data.frame(a,b)->turniXsede_29_4dicembre2021
 #colnames(turniXsede_29_4dicembre2021)<-c('ore', 'sede')
 
+#################################################################################################################
+#conto ore uomo 6-11 dicembre 2021
+
+#a <- vector()
+#a[1]<- 80-32-7-6.5   # barona
+#a[2]<-       # bicocca
+#a[3]<-  40         # bologna
+#a[4]<-  0       #BRESCIA-SOLFERINO
+#a[5]<-  40+7-14       #BUCCINASCO
+#a[6]<- 0                #CADORNA
+#a[7]<- 40*6-6.5-8-(6.5*3+8*3)*2    #CAIROLI 
+#a[8]<- 80-7-8     #CERNUSCO
+#a[9]<-	80-14-16	#CIMIANO
+#a[10]<- 100-4-7-2*(19)		#CITTASTUDI/ ABRUZZI
+#a[11]<-  40*8+35+20-4-6.5-14-8-2*(8+4+6.5+7+7+8+8)       #corvetto A+B, sono insieme
+#a[12]<- 0            #corvetto B
+#a[13]<- 40*8-24-16-2*(6.5*2+7+8*6)       #corso vercelli
+#a[14]<-0	#domiciliare
+#a[15]<-7+8+6+6+7		#foppa
+#a[16]<-  38*2+80+.5-8-8-8-2*(16+14)+4       #loreto 
+#a[17]<-     0  			#missori
+#a[18]<- 			# monumentale
+#a[19]<- 100-7-3-7-8-3-7-3		#monza esselunga
+#a[20]<- 100-16-8-8-5-8-8-5		#nembro esselunga
+#a[21]<- 80-16-21   #palazzo di giustizia 
+#a[22]<- 				#panfilo castaldi
+#a[23]<- 8+8+8+7+8+7+5.5				#porta romana
+#a[24]<- 0			#porta venezia
+#a[25]<- 				#portello
+#a[26]<- 100-8-8-8-8				#rho esselunga
+#a[27]<- 5+5+5+5+5+5+5+5			#roma cavour
+#a[28]<- 14+24*3-8-8-2*(3+24)		# sesto san giovanni 1
+#a[29]<- 26+24+8-7-16			# sesto san giovanni 2
+#a[30]<- 8+8+8+8+8+8+8+5+7+16+4+8+5+7+8+8+16			#santa1
+#a[31]<- (4+8)*3			#santa18
+#a[32]<- 8+8+8+8+5.5+6.5				#santa sofia
+#a[33]<- 7+8+12+6+8+4.5			#via larga
+#a[34]<- 0		#videoterapia- online
+#a[35]<- 39+42-32		#vigevano esselunga 
+
+#turniXsede_6_11dicembre2021<-list()
+#cbind.data.frame(a,b)->turniXsede_6_11dicembre2021
+#colnames(turniXsede_6_11dicembre2021)<-c('ore', 'sede')
 ###########  grafico 1-6 novembre
 
 
